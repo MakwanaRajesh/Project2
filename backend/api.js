@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Patient = require('./Patient');
 const cors = require('cors');
 
-const connectionString = 'mongodb+srv://Smit:smit123@cluster0.nr60d.mongodb.net/Hospital_Management';
+const connectionString = 'mongodb+srv://rajeshmakwana:Rajesh@1234@cluster0.2j22y.mongodb.net/Cluster0';
 mongoose.connect(connectionString).then(() => {
     const app = express();
     app.use(bodyParser.urlencoded({ extended: true }));
